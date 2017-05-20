@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="908.0" prefWidth="1034.0" text="OzlympicGame" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+	<content>
+		<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="851.0" prefWidth="935.0">
+			<children>
+			    <Button fx:id="test" layoutX="129.0" layoutY="258.0" mnemonicParsing="false" prefHeight="225.0" prefWidth="359.0" text="test" />
+				<Label fx:id="switchGame" layoutX="8.0" layoutY="14.0" text="select a game to rum " />
+				<ChoiceBox fx:id="gameoption" layoutX="8.0" layoutY="40.0" prefWidth="150.0" />
+				<Label fx:id="showAthletes" layoutX="8.0" layoutY="70.0" mnemonicParsing="false" text="choose Athlete and offical" />
+				<VBox fx:id="ShowAthlere" layoutX="8.0" layoutY="97.0" prefHeight="573.0" prefWidth="379.0" />
+				<Label fx:id="predictGame" layoutX="8.0" layoutY="721.0" text="Predict the winner of the game" />
+				<TextField fx:id="predictGamecontext" layoutX="1.0" layoutY="748.0" />
+				<Button fx:id="startGame" layoutX="1.0" layoutY="788.0" mnemonicParsing="false" onAction="#startGame" text="start the game">
+				</Button>
+				<Label fx:id="showResult" layoutX="8.0" layoutY="825.0" prefHeight="30.0" prefWidth="553.0" />
+				<Button fx:id="displayscore" layoutX="497.0" layoutY="9.0" mnemonicParsing="false" onAction="#displayScore" text="Display the final scores of all games" />
+				<Button fx:id="displayresult" layoutX="497.0" layoutY="388.0" mnemonicParsing="false" onAction="#displayResult" text="Display the points of all athletes" />
+				<Button fx:id="exit" layoutX="885.0" layoutY="833.0" mnemonicParsing="false" onAction="#exitSystem" text="Exit" />
+				<TextArea fx:id="scorecontext" layoutX="501.0" layoutY="47.0" prefHeight="341.0" prefWidth="511.0" />
+				<TextArea fx:id="resultcontext" layoutX="497.0" layoutY="418.0" prefHeight="400.0" prefWidth="519.0" />
+				<Label fx:id="showException" layoutX="13.0" layoutY="683.0" prefHeight="29.0" prefWidth="483.0" />
+           
+			</children>
+		</AnchorPane>
+	</content>
+</TitledPane>
