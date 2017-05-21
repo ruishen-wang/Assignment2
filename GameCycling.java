@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Random;
 
 // work by Tao Lei s3552269  ass01
-//work by Hongyi Yan s3521449ass02
+// updated by Hongyi Yan s3521449 ass02
 // the explain of gameCycling gameSwimming and gameRunning are all in gameSwimming 
 //because these three are similar
 public class GameCycling extends Game {

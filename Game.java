@@ -5,7 +5,7 @@ import java.util.Date;
 import java.util.List;
 
 // work by Tao Lei s3552269  ass01 
-//  work by Hongyi Yan s3521449ass02
+//  updated by Hongyi Yan s3521449 ass02
 
 class Game {
 	GameResultJDBCDao gameJDBCDao = new GameResultJDBCDao();

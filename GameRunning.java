@@ -1,6 +1,7 @@
 package application;
+
 // work by Tao Lei s3552269  ass01
-// work by Hongyi Yan s3521449 ass02
+// updated by Hongyi Yan s3521449 ass02
 
 import java.io.IOException;
 import java.sql.SQLException;

@@ -4,7 +4,8 @@ import java.sql.SQLException;
 import java.util.List;
 
 // work by Tao Lei s3552269  ass01
-// work by Hongyi Yan s3521449 ass02
+// updated by Hongyi Yan s3521449 ass02
+
 public class Participant {
 
 	private String ID;
